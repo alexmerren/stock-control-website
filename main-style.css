@@ -1,0 +1,221 @@
+.topnav {
+	background-color: #FFFFFF;
+	text-align: center;
+	margin-top: 6%;
+	padding-right:15px;
+	padding-left:15px;
+}
+
+.topnav li a {
+	position:relative;
+	text-decoration:none;
+	text-align: center;
+	font-size: 26px;
+	font-family: 'Oswald', sans-serif;
+	color: grey;
+}
+
+.topnav li a:hover {
+	color: #606060;
+}
+
+.topnav li a.active {
+	color: black;
+}
+
+.topnav li.HomePage {
+	display: inline-block;
+	margin-right: 10%;
+}
+
+.topnav li.LoginPage {
+	display: inline-block;
+	margin-right: 36%;
+}
+
+.topnav li.facebook {
+	display: inline-block;
+	margin-right: 10%;
+}
+
+.topnav li.twitter {
+	display: inline-block;
+	margin-right: 6%;
+}
+
+.twitter-picture {
+	width: auto;
+	height: 26px;
+}
+
+.facebook-picture {
+	width: auto;
+	height: 26px;
+}
+
+.logo  {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.logo>img {
+	width: 125px;
+	height: auto;
+}
+
+body {
+	background-color: #FFFFFF;
+}
+
+.product-content{
+	display: none;
+	max-width: 700px;
+	margin-left: 150px;
+}
+
+.product-img {
+	width: 15%;
+	display: inline-block;
+	float: left;
+	padding: 5% 2% 5% 3%;	
+}
+
+.products-list {
+	list-style: none;
+	text-align: center;
+}
+
+.login-form-content {
+	position: absolute;
+	left: 50%;
+	margin-top: 15%;
+	margin-left: -15%;
+}
+
+.form-text {
+	display:inline-block;
+	font-size: 15px;
+	margin-right: 5px;
+	font-family:'Oswald', sans-serif;
+	color:black;
+}
+
+input[type=text], select {
+	display:inline-block;
+ 	width: 50%;
+ 	padding: 12px 20px;
+ 	border: 1px solid grey;
+ 	border-radius: 5px;
+}
+
+input[type=number], select {
+	display:inline-block;
+ 	width: 25%;
+ 	padding: 12px 20px;
+ 	border: 1px solid grey;
+ 	border-radius: 5px;
+}
+
+
+input[type=password], select {
+	display:inline-block;
+  	width: 50%;
+ 	padding: 12px 20px;
+ 	border: 1px solid grey;
+ 	border-radius: 5px;
+}
+
+
+input[type=submit] {
+	position:absolute;
+	left:10%;
+ 	width: 75%;
+ 	color: black;
+ 	padding: 14px 20px;
+	border:none;
+ 	border-radius: 4px;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+ 	background-color: black;
+	color:white;
+}
+
+.error-holder {
+	font-family: 'Oswald', sans-serif;
+	color:red;
+	margin-top:35%;
+	margin-left:40%;
+}
+
+.stock-navigation {
+	background-color: #FFFFFF;
+	text-align: center;
+	margin-top: 10%;
+	padding-right:15px;
+	padding-left:15px;
+}
+
+.stock-navigation li {
+	display:inline-block;
+	list-style:none;
+}
+
+.stock-navigation li a {
+	position:relative;
+	text-decoration:none;
+	text-align: center;
+	font-size: 26px;
+	font-family: 'Oswald', sans-serif;
+	color: grey;
+}
+
+.stock-navigation li a:hover {
+	color: #505050;
+}
+
+.stock-navigation li.add-form-nav {
+	padding-right:10px;
+}
+
+.stock-navigation li.remove-form-nav {
+	padding-right:10px;
+}
+
+.add-form-content {
+	display: block;
+	width: 60%;
+	margin-left: 25%;
+	margin-top: 5%;
+	margin-bottom: 20%;
+}	
+
+.remove-form-content {
+	width: 60%;
+	margin-left: 25%;
+	margin-top: 0%;
+	margin-bottom: 20%;
+}
+
+.retrieve-form-content {
+	width:60%;
+	margin-left: 25%;
+	margin-top: 15%;
+	margin-bottom: 10%;
+}
+
+.retrieve-all-form-content {
+	width: 60%;
+	margin-bottom:20%;
+}
+
+.result-holder {
+	font-family: 'Oswald', sans-serif;
+	color:red;
+	margin-top:5%;
+	margin-left:40%;
+}
+
+
